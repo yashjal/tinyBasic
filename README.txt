@@ -1,0 +1,1 @@
+Currently, the parser only reads and parses input file named test.in. In order to test files with different names, you must rename/reassign “test.in” in tinyBasic.y in line 98.

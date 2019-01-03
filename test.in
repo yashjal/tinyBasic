@@ -1,0 +1,16 @@
+ IF +(+A-B) < +(+9*(-C+D)) THEN PRINT "A MINUS B IS LESS THAN 9 TIMES D MINUS C"
+10 PRINT "Please  _enter your _nAme _"
+CLEAR
+INPUT K,X,Y
+PRINT "Value of A is" , +A , "Value of B is" , +B
+60 LET C = +C+1
+5 PRINT +A +B -C
+130 LET J = +J + 1
+140 GOTO +120
+110 IF +J > +0 THEN GOTO +170
+0 IF +I > +10 THEN GOTO +70
+1 GOSUB +A +B
+LET A = -9
+LET B = -A
+END
+CLEAR
